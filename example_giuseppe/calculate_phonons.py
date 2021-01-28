@@ -34,7 +34,7 @@ for temp in range(100,100,100):
                     # 1 THz
                     # third_bandwidth=1/4.135,
                     broadening_shape='triangle',
-                    is_tf_backend=True,
+                    is_tf_backend=False,
                     folder='ald-output')
   
   # Unfortunately at the moment the input is in 2 * pi * THZ
